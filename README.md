@@ -1,16 +1,61 @@
-# pomodoro
+# Pomodoro 3D - かわいいトマトのポモドーロタイマー
 
-A new Flutter project.
+<!-- <p align="center"> -->
+  <!-- TODO: ロゴやメインビジュアルを挿入 -->
+  <!-- <img src="" alt="Pomodoro 3D" width="200"/>
+</p> -->
 
-## Getting Started
+かわいいトマトの3Dモデルを眺めながら、ポモドーロテクニックを実践できるタイマーアプリです。
+Flutterで開発されており、楽しく集中力を高めるお手伝いをします。
 
-This project is a starting point for a Flutter application.
+## ✨ 主な機能
 
-A few resources to get you started if this is your first Flutter project:
+- **ポモドーロタイマー**: 25分の作業と5分の休憩を繰り返すクラシックなポモドーロサイクル。
+- **インタラクティブな3Dモデル**: 見ているだけで癒やされる、かわいいトマトの3Dモデル。
+- **シンプルなUI**: 直感的に操作できる、ミニマルで使いやすいデザイン。
+- **クロスプラットフォーム**: Flutterの力で、Android, iOS, Webでの動作を目指しています。
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📸 スクリーンショット
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+*まだ画像なし*
+
+| 作業中 | 休憩中 |
+| :---: | :---: |
+| (画像) | (画像) |
+
+## 🛠️ 使用技術
+
+- **フレームワーク**: [Flutter](https://flutter.dev/)
+- **言語**: [Dart](https://dart.dev/)
+- **3D描画**: [flutter_3d_controller](https://pub.dev/packages/flutter_3d_controller)
+
+## 🚀 はじめに
+
+このプロジェクトをローカル環境で動かすための手順です。
+
+1.  このリポジトリをクローンします:
+    ```sh
+    git clone https://github.com/[あなたのユーザー名]/pomodoro.git
+    ```
+2.  プロジェクトディレクトリに移動し、依存関係をインストールします:
+    ```sh
+    cd pomodoro
+    flutter pub get
+    ```
+3.  アプリを実行します:
+    ```sh
+    flutter run
+    ```
+
+## 📝 今後の展望 (TODO)
+
+- [ ] タイマー時間（作業・休憩）のカスタマイズ機能
+- [ ] 長い休憩時間の設定
+- [ ] タスク管理機能
+- [ ] 完了したポモドーロ数の記録と統計表示
+- [ ] 通知音やバイブレーションの追加・選択機能
+- [ ] テーマカラーや他の3Dモデルの選択機能
+
+## 📄 ライセンス
+
+このプロジェクトは [MIT License](LICENSE) のもとで公開されています。
