@@ -19,6 +19,6 @@ class MyApp extends HookConsumerWidget {
   const MyApp({super.key});
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return const MaterialApp(home: TimerPage());
+    return const MaterialApp(debugShowCheckedModeBanner: false,home: TimerPage());
   }
 }
